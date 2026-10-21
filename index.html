@@ -1,180 +1,306 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>JamiPay – Stokvels that work across banks</title>
-<meta name="description" content="JamiPay helps South African stokvels and savings groups run rotating contributions and payouts, no matter which bank each member uses.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&display=swap" rel="stylesheet">
-<link href="styles.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JamiPay – Stokvels that work across banks</title>
+  <meta name="description"
+    content="JamiPay helps South African stokvels and savings groups run rotating contributions and payouts, no matter which bank each member uses.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&display=swap" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-
-<header class="site-header">
-  <div class="wrap">
-    <a class="logo" href="#top">Jami<span>Pay</span></a>
-    <a class="nav-link" href="#join">Join the pilot</a>
-  </div>
-</header>
-
-<main id="top">
-  <section class="hero">
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="person" viewBox="-22 -24 44 48" overflow="visible">
+        <path d="M-16 20C-16 6-9 0 0 0S16 6 16 20Z" fill="currentColor" stroke="#0e3b34" stroke-width="1.6"
+          stroke-linejoin="round" />
+        <circle cx="0" cy="-8" r="9" fill="var(--skin,#c68a5e)" stroke="#0e3b34" stroke-width="1.6" />
+      </symbol>
+    </defs>
+  </svg>
+  <header class="site-header">
     <div class="wrap">
-      <div>
-        <h1>Run your stokvel together, whichever bank you use.</h1>
-        <p class="lede">JamiPay keeps track of contributions, whose turn it is, and every payout, so a savings group can work even when its members bank in different places.</p>
-        <a class="btn" href="#join">Join the pilot waitlist</a>
+      <a class="logo" href="#top">Jami<span>Pay</span></a>
+      <a class="nav-link" href="#join">Join the pilot</a>
+    </div>
+  </header>
+  <main id="top">
+    <section class="hero">
+      <div class="wrap">
+        <div>
+          <h1>Run your stokvel together, whichever bank you use.</h1>
+          <p class="lede">JamiPay keeps track of contributions, whose turn it is, and every payout, so a savings group
+            can work even when its members bank in different places.</p>
+          <a class="btn" href="#join">Join the pilot waitlist</a>
+        </div>
+        <figure class="ring-figure">
+          <svg viewBox="0 0 300 300" role="img"
+            aria-label="Eight members at different banks taking turns to receive the group's payout. The recipient changes every turn.">
+            <circle class="orbit" cx="150" cy="150" r="105" />
+            <g class="lift" style="--i:0">
+              <use href="#person" class="p-forest" x="127.0" y="20.0" width="46" height="50" style="--skin:#8a5a3c" />
+            </g>
+            <g class="lift" style="--i:1">
+              <use href="#person" class="p-gold" x="201.2" y="50.8" width="46" height="50" style="--skin:#c68a5e" />
+            </g>
+            <g class="lift" style="--i:2">
+              <use href="#person" class="p-coral" x="232.0" y="125.0" width="46" height="50" style="--skin:#5e3b26" />
+            </g>
+            <g class="lift" style="--i:3">
+              <use href="#person" class="p-forest" x="201.2" y="199.2" width="46" height="50" style="--skin:#a86f4a" />
+            </g>
+            <g class="lift" style="--i:4">
+              <use href="#person" class="p-coral" x="127.0" y="230.0" width="46" height="50" style="--skin:#c68a5e" />
+            </g>
+            <g class="lift" style="--i:5">
+              <use href="#person" class="p-gold" x="52.8" y="199.2" width="46" height="50" style="--skin:#8a5a3c" />
+            </g>
+            <g class="lift" style="--i:6">
+              <use href="#person" class="p-forest" x="22.0" y="125.0" width="46" height="50" style="--skin:#a86f4a" />
+            </g>
+            <g class="lift" style="--i:7">
+              <use href="#person" class="p-coral" x="52.8" y="50.8" width="46" height="50" style="--skin:#5e3b26" />
+            </g>
+            <circle class="hl cyc first" style="--i:0" cx="150.0" cy="43.0" r="33" />
+            <circle class="hl cyc" style="--i:1" cx="224.2" cy="73.8" r="33" />
+            <circle class="hl cyc" style="--i:2" cx="255.0" cy="148.0" r="33" />
+            <circle class="hl cyc" style="--i:3" cx="224.2" cy="222.2" r="33" />
+            <circle class="hl cyc" style="--i:4" cx="150.0" cy="253.0" r="33" />
+            <circle class="hl cyc" style="--i:5" cx="75.8" cy="222.2" r="33" />
+            <circle class="hl cyc" style="--i:6" cx="45.0" cy="148.0" r="33" />
+            <circle class="hl cyc" style="--i:7" cx="75.8" cy="73.8" r="33" />
+            <text class="cycle-sub" x="150" y="118">Example stokvel</text>
+            <text class="cycle-label cyc first" style="--i:0" x="150" y="150">Thabo</text>
+            <text class="cycle-label cyc" style="--i:1" x="150" y="150">Naledi</text>
+            <text class="cycle-label cyc" style="--i:2" x="150" y="150">Pieter</text>
+            <text class="cycle-label cyc" style="--i:3" x="150" y="150">Fatima</text>
+            <text class="cycle-label cyc" style="--i:4" x="150" y="150">Sipho</text>
+            <text class="cycle-label cyc" style="--i:5" x="150" y="150">Lindiwe</text>
+            <text class="cycle-label cyc" style="--i:6" x="150" y="150">Nomsa</text>
+            <text class="cycle-label cyc" style="--i:7" x="150" y="150">Kagiso</text>
+            <text class="cycle-sub" x="150" y="182">receives the pool</text>
+          </svg>
+          <figcaption>One payout every cycle, whether weekly, fortnightly or monthly. Everyone gets a turn.</figcaption>
+        </figure>
       </div>
-
-      <figure class="ring-figure">
-        <svg viewBox="0 0 300 300" role="img" aria-label="Eight members arranged in a circle, taking turns to receive the group's monthly payout. One member is highlighted as this month's recipient.">
-          <circle cx="150" cy="150" r="105" fill="none" stroke="#0e3b34" stroke-width="2" stroke-dasharray="3 7" stroke-linecap="round"/>
-          <g font-family="Bricolage Grotesque, Trebuchet MS, sans-serif" font-weight="700" font-size="17" text-anchor="middle">
-            <circle cx="150" cy="45" r="24" fill="#dbe7e1" stroke="#0e3b34" stroke-width="2"/><text x="150" y="51" fill="#0e3b34">T</text>
-            <circle cx="224.2" cy="75.8" r="24" fill="#dbe7e1" stroke="#0e3b34" stroke-width="2"/><text x="224.2" y="81.8" fill="#0e3b34">S</text>
-            <circle cx="255" cy="150" r="28" fill="#f2b230" stroke="#0e3b34" stroke-width="2.5"/><text x="255" y="156" fill="#0e3b34">N</text>
-            <circle cx="224.2" cy="224.2" r="24" fill="#dbe7e1" stroke="#0e3b34" stroke-width="2"/><text x="224.2" y="230.2" fill="#0e3b34">L</text>
-            <circle cx="150" cy="255" r="24" fill="#dbe7e1" stroke="#0e3b34" stroke-width="2"/><text x="150" y="261" fill="#0e3b34">M</text>
-            <circle cx="75.8" cy="224.2" r="24" fill="#dbe7e1" stroke="#0e3b34" stroke-width="2"/><text x="75.8" y="230.2" fill="#0e3b34">Z</text>
-            <circle cx="45" cy="150" r="24" fill="#dbe7e1" stroke="#0e3b34" stroke-width="2"/><text x="45" y="156" fill="#0e3b34">A</text>
-            <circle cx="75.8" cy="75.8" r="24" fill="#dbe7e1" stroke="#0e3b34" stroke-width="2"/><text x="75.8" y="81.8" fill="#0e3b34">K</text>
-          </g>
-          <g text-anchor="middle" font-family="system-ui, sans-serif" fill="#0e3b34">
-            <text x="150" y="132" font-size="12" fill="#55645e">Example group</text>
-            <text x="150" y="162" font-size="30" font-weight="700" font-family="Bricolage Grotesque, Trebuchet MS, sans-serif">R4 000</text>
-            <text x="150" y="182" font-size="12" fill="#55645e">paid out each month</text>
-          </g>
-        </svg>
-        <figcaption>Eight members, one payout a month, everyone gets a turn.</figcaption>
-      </figure>
-    </div>
-  </section>
-
-  <section class="band" id="about">
-    <div class="wrap">
-      <h2>The problem we're solving</h2>
-      <div class="prose">
-        <p>Stokvels and savings clubs are a trusted way for communities to save. Many groups still run on spreadsheets, notebooks and WhatsApp messages.</p>
-        <p>Stokvel accounts offered by individual banks need every member to bank with the same institution. That leaves out members who bank elsewhere.</p>
-        <p>JamiPay handles the mechanics of the group (members, recurring contributions, rotating payouts and a clear record of every transaction) so a group can run one shared pool across banks.</p>
+    </section>
+    <section class="band" id="about">
+      <div class="wrap">
+        <h2>The problem we're solving</h2>
+        <div class="scenes">
+          <figure class="scene">
+            <svg viewBox="0 0 320 240" role="img"
+              aria-label="Group members passing around messages, a paper notebook and a spreadsheet to keep track of who has paid.">
+              <use href="#person" class="p-soft" x="23" y="30.5" width="54" height="59" style="--skin:#8a5a3c" />
+              <use href="#person" class="p-soft" x="243" y="30.5" width="54" height="59" style="--skin:#c68a5e" />
+              <use href="#person" class="p-soft" x="23" y="155.5" width="54" height="59" style="--skin:#5e3b26" />
+              <use href="#person" class="p-soft" x="243" y="155.5" width="54" height="59" style="--skin:#a86f4a" />
+              <g transform="translate(160 120)">
+                <g class="wob">
+                  <rect class="paper" x="-34" y="-44" width="68" height="88" rx="6" />
+                  <path class="ink" d="M-20 -22h40M-20 -8h40M-20 6h28M-20 20h34" />
+                </g>
+              </g>
+              <g class="wob slow">
+                <rect class="paper" x="84" y="190" width="44" height="30" rx="3" style="stroke-width:2.5" />
+                <path class="grid-lines" d="M99 190v30M113 190v30M84 200h44M84 210h44" />
+              </g>
+              <g class="bubble pop">
+                <rect x="78" y="20" width="70" height="24" rx="12" /><text x="113" y="32">Who paid?</text>
+              </g>
+              <g class="bubble pop d2">
+                <rect x="176" y="20" width="62" height="24" rx="12" /><text x="207" y="32">My turn?</text>
+              </g>
+              <g class="bubble pop d3">
+                <rect x="186" y="198" width="56" height="24" rx="12" /><text x="214" y="210">Sent!</text>
+              </g>
+            </svg>
+            <figcaption>
+              <h3>Today</h3>
+              <p>Groups run on notebooks, spreadsheets and chat messages.</p>
+            </figcaption>
+          </figure>
+          <figure class="scene">
+            <svg viewBox="0 0 320 240" role="img"
+              aria-label="Two members at other banks try to join a stokvel account that only admits members of one bank, and are turned away.">
+              <rect x="100" y="58" width="120" height="124" rx="14"
+                style="fill:var(--forest-soft);stroke:var(--forest);stroke-width:3" />
+              <text class="tiny" x="160" y="78">One bank</text>
+              <use href="#person" class="p-forest" x="108" y="102.5" width="54" height="59" style="--skin:#8a5a3c" />
+              <use href="#person" class="p-forest" x="158" y="102.5" width="54" height="59" style="--skin:#5e3b26" />
+              <g class="push-l">
+                <use href="#person" class="p-gold" x="18" y="102.5" width="54" height="59" style="--skin:#c68a5e" />
+              </g>
+              <g class="push-r">
+                <use href="#person" class="p-coral" x="248" y="102.5" width="54" height="59" style="--skin:#a86f4a" />
+              </g>
+              <g transform="translate(96 104)">
+                <path class="no" d="M-7 -7l14 14M7 -7l-14 14" />
+              </g>
+              <g transform="translate(224 104)">
+                <path class="no" d="M-7 -7l14 14M7 -7l-14 14" />
+              </g>
+            </svg>
+            <figcaption>
+              <h3>The catch</h3>
+              <p>Bank stokvel accounts need every member at the same bank.</p>
+            </figcaption>
+          </figure>
+          <figure class="scene">
+            <svg viewBox="0 0 320 240" role="img"
+              aria-label="Members at different banks all contribute into one JamiPay pool, and the pool pays out to each member in turn.">
+              <path class="link" d="M80 76L130 102M240 76L190 102M80 164L130 138M240 164L190 138" />
+              <circle class="coin c1" cx="60" cy="60" r="6" style="--dx:100px;--dy:60px" />
+              <circle class="coin c2" cx="260" cy="60" r="6" style="--dx:-100px;--dy:60px" />
+              <circle class="coin c3" cx="60" cy="180" r="6" style="--dx:100px;--dy:-60px" />
+              <circle class="coin c4" cx="260" cy="180" r="6" style="--dx:-100px;--dy:-60px" />
+              <circle class="coin out" cx="160" cy="120" r="6" />
+              <circle cx="160" cy="120" r="36" style="fill:var(--forest)" />
+              <text x="160" y="120" style="fill:#fff;font-size:13px">JamiPay</text>
+              <use href="#person" class="p-forest" x="33" y="30.5" width="54" height="59" style="--skin:#8a5a3c" />
+              <use href="#person" class="p-gold" x="233" y="30.5" width="54" height="59" style="--skin:#c68a5e" />
+              <use href="#person" class="p-coral" x="33" y="150.5" width="54" height="59" style="--skin:#5e3b26" />
+              <use href="#person" class="p-forest" x="233" y="150.5" width="54" height="59" style="--skin:#a86f4a" />
+              <circle class="ring" cx="260" cy="60" r="35" />
+            </svg>
+            <figcaption>
+              <h3>With JamiPay</h3>
+              <p>One shared pool, whatever bank each member uses.</p>
+            </figcaption>
+          </figure>
+        </div>
       </div>
-    </div>
-  </section>
-
-  <section id="how">
+    </section>
+    <section id="how">
+      <div class="wrap">
+        <h2>How it works</h2>
+        <ol class="steps">
+          <li>
+            <h3>Create a group</h3>
+            <p>Set the contribution amount, how often members pay, and the payout order.</p>
+          </li>
+          <li>
+            <h3>Add members</h3>
+            <p>Invite people to join, whichever bank they use.</p>
+          </li>
+          <li>
+            <h3>Contribute each cycle</h3>
+            <p>Contributions are tracked, so everyone can see who has paid.</p>
+          </li>
+          <li>
+            <h3>Pay out in turn</h3>
+            <p>Each cycle the pool goes to the next member in the rotation.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+    <section class="journey-section" id="status">
+      <div class="wrap">
+        <h2>Where we are</h2>
+        <p class="status-intro">We're in early development.</p>
+        <ol class="journey">
+          <li>
+            <span class="arch a-done"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="8" y="12" width="48" height="40" rx="4" />
+                <path d="M8 24h48" />
+                <circle cx="15" cy="18" r="1.2" fill="currentColor" />
+                <circle cx="21" cy="18" r="1.2" fill="currentColor" />
+                <path d="M24 40l6 6 12-14" />
+              </svg></span>
+            <div class="stage-text">
+              <span class="tag t-done">Done</span>
+              <h3>Prototype</h3>
+              <p>The core product is built.</p>
+            </div>
+          </li>
+          <li>
+            <span class="arch a-next"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="32" cy="22" r="7" />
+                <path d="M20 52c0-9 5-14 12-14s12 5 12 14" />
+                <circle cx="14" cy="29" r="5" />
+                <path d="M5 52c0-6 3-10 9-10" />
+                <circle cx="50" cy="29" r="5" />
+                <path d="M59 52c0-6-3-10-9-10" />
+              </svg></span>
+            <div class="stage-text">
+              <span class="tag t-next">Next</span>
+              <h3>Test pilot</h3>
+              <p>With a limited number of users.</p>
+            </div>
+          </li>
+          <li>
+            <span class="arch a-later"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M32 6c8 7 11 16 11 26l-5 8H26l-5-8c0-10 3-19 11-26z" />
+                <circle cx="32" cy="24" r="4" />
+                <path d="M21 32l-8 10 9-1" />
+                <path d="M43 32l8 10-9-1" />
+                <path d="M28 45c0 5 2 9 4 12 2-3 4-7 4-12" />
+              </svg></span>
+            <div class="stage-text">
+              <span class="tag">Later</span>
+              <h3>Live payments</h3>
+              <p>Real contributions and payouts.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+    <section class="cta" id="join">
+      <div class="wrap">
+        <h2>Join the pilot waitlist</h2>
+        <p>Tell us your email and bank, and we'll get back to you about the pilot. Takes a few seconds.</p>
+        <form id="waitlist-form" class="waitlist-form" novalidate>
+          <div class="field">
+            <label for="wl-email">Email address</label>
+            <input type="email" id="wl-email" name="user_email" placeholder="you@example.com" required>
+          </div>
+          <div class="field">
+            <label for="wl-bank">Bank you use</label>
+            <select id="wl-bank" name="bank" required>
+              <option value="" disabled selected>Select your bank</option>
+              <option>Capitec</option>
+              <option>FNB</option>
+              <option>Standard Bank</option>
+              <option>ABSA</option>
+              <option>Nedbank</option>
+              <option>TymeBank</option>
+              <option>Discovery Bank</option>
+              <option>African Bank</option>
+              <option>Bidvest Bank</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="wl-group">Group name <span class="optional">(optional)</span></label>
+            <input type="text" id="wl-group" name="group_name" placeholder="e.g. Sisters in Savings">
+          </div>
+          <div class="field">
+            <label for="wl-size">Number of members <span class="optional">(optional)</span></label>
+            <input type="number" id="wl-size" name="group_size" min="1" placeholder="e.g. 8">
+          </div>
+          <button type="submit" class="btn on-dark" id="wl-submit">Join the pilot waitlist</button>
+          <p class="form-status" id="wl-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer>
     <div class="wrap">
-      <h2>How it works</h2>
-      <ol class="steps">
-        <li>
-          <h3>Create a group</h3>
-          <p>Set the contribution amount, how often members pay, and the payout order.</p>
-        </li>
-        <li>
-          <h3>Add members</h3>
-          <p>Invite people to join, whichever bank they use.</p>
-        </li>
-        <li>
-          <h3>Contribute each cycle</h3>
-          <p>Contributions are tracked, so everyone can see who has paid.</p>
-        </li>
-        <li>
-          <h3>Pay out in turn</h3>
-          <p>Each cycle the pool goes to the next member in the rotation.</p>
-        </li>
-      </ol>
+      <div>© 2026 JamiPay. Contact: <a id="contact-text"
+          href="mailto:REPLACE_WITH_YOUR_EMAIL">REPLACE_WITH_YOUR_EMAIL</a></div>
+      <nav aria-label="Legal">
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
     </div>
-  </section>
-
-  <section class="band" id="status">
-    <div class="wrap status">
-      <h2>Where we are</h2>
-      <ul>
-        <li>JamiPay is in early development.</li>
-        <li>We're preparing to pilot with a small number of savings groups (around 3 to 5 groups of 5 to 10 members).</li>
-        <li>We are not processing live payments yet. Before we do, we'll put the right account and compliance arrangements in place.</li>
-      </ul>
-      <p>If you run or belong to a stokvel and want to help shape the product, we'd like to hear from you.</p>
-    </div>
-  </section>
-
-  <section class="cta" id="join">
-    <div class="wrap">
-      <h2>Join the pilot waitlist</h2>
-      <p>Tell us your email and bank, and we'll get back to you about the pilot. Takes a few seconds.</p>
-      <form id="waitlist-form" class="waitlist-form" novalidate>
-        <div class="field">
-          <label for="wl-email">Email address</label>
-          <input type="email" id="wl-email" name="user_email" placeholder="you@example.com" required>
-        </div>
-        <div class="field">
-          <label for="wl-bank">Bank you use</label>
-          <select id="wl-bank" name="bank" required>
-            <option value="" disabled selected>Select your bank</option>
-            <option>Capitec</option>
-            <option>FNB</option>
-            <option>Standard Bank</option>
-            <option>ABSA</option>
-            <option>Nedbank</option>
-            <option>TymeBank</option>
-            <option>Discovery Bank</option>
-            <option>African Bank</option>
-            <option>Bidvest Bank</option>
-            <option>Other</option>
-          </select>
-        </div>
-        <div class="field">
-          <label for="wl-group">Group name <span class="optional">(optional)</span></label>
-          <input type="text" id="wl-group" name="group_name" placeholder="e.g. Sisters in Savings">
-        </div>
-        <div class="field">
-          <label for="wl-size">Number of members <span class="optional">(optional)</span></label>
-          <input type="number" id="wl-size" name="group_size" min="1" placeholder="e.g. 8">
-        </div>
-        <button type="submit" class="btn on-dark" id="wl-submit">Join the pilot waitlist</button>
-        <p class="form-status" id="wl-status" role="status" aria-live="polite"></p>
-      </form>
-    </div>
-  </section>
-</main>
-
-<footer>
-  <div class="wrap">
-    <div>© 2026 JamiPay. Contact: <a id="contact-text" href="mailto:REPLACE_WITH_YOUR_EMAIL">REPLACE_WITH_YOUR_EMAIL</a></div>
-    <nav aria-label="Legal">
-      <a href="#privacy">Privacy</a>
-      <a href="#terms">Terms</a>
-    </nav>
-  </div>
-</footer>
-
-<section class="legal" id="privacy">
-  <div class="wrap">
-    <h2>Privacy notice</h2>
-    <p class="note"><strong>Placeholder.</strong> Replace this text with a proper privacy notice before you collect real personal information. Check it against South Africa's POPIA requirements, ideally with legal advice.</p>
-    <h3>What we collect</h3>
-    <p>If you join the pilot waitlist, we collect your email address and bank, plus any optional details you provide, such as your group's name and size.</p>
-    <h3>How we use it</h3>
-    <p>We use these details only to respond to you about the JamiPay pilot. We do not sell your information.</p>
-    <h3>Your choices</h3>
-    <p>You can ask us to delete your details at any time by emailing the address above.</p>
-  </div>
-</section>
-
-<section class="legal" id="terms">
-  <div class="wrap">
-    <h2>Terms of use</h2>
-    <p class="note"><strong>Placeholder.</strong> Replace this text with proper terms before launching the product. This page is for information only and has not been reviewed by a lawyer.</p>
-    <h3>About this website</h3>
-    <p>This website describes JamiPay, a product in early development. Nothing here is financial advice or an offer to hold, manage or invest your money.</p>
-    <h3>Pilot</h3>
-    <p>The JamiPay pilot is not yet open and does not currently process payments. Detailed terms will apply to participants before any live use.</p>
-  </div>
-</section>
-
-<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-<script src="script.js"></script>
-
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
